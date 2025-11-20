@@ -1,9 +1,9 @@
 {
-  "name": "edgeone-pages-mcp",
+  "name": "@bachstudio/edgeone-pages-mcp",
   "version": "0.0.15",
   "repository": {
     "type": "git",
-    "url": "https://github.com/TencentEdgeOne/edgeone-pages-mcp"
+    "url": "https://github.com/BACH-AI-Tools/edgeone-pages-mcp"
   },
   "homepage": "https://edgeone.ai/products/pages",
   "description": "An MCP service for deploying HTML content to EdgeOne Pages and obtaining a publicly accessible URL.",
@@ -26,7 +26,7 @@
     "deploy",
     "mcp"
   ],
-  "author": "EdgeOne Pages",
+  "author": "bachstudio",
   "license": "MIT",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.7.0",
