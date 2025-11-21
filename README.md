@@ -6,6 +6,8 @@ An MCP service for deploying HTML content, folders, or full-stack projects to Ed
   <img width="380" height="200" src="https://glama.ai/mcp/servers/@TencentEdgeOne/edgeone-pages-mcp/badge" alt="EdgeOne Pages MCP server" />
 </a>
 
+> **基于原项目**: 此项目基于 [edgeone-pages-mcp](https://github.com/TencentEdgeOne/edgeone-pages-mcp) 修改而来
+
 ## Demo
 
 ### Deploy HTML
@@ -33,7 +35,7 @@ Full-featured MCP service that supports the `deploy_folder` tool for deploying f
     "edgeone-pages-mcp-server": {
       "timeout": 600,
       "command": "npx",
-      "args": ["edgeone-pages-mcp-fullstack@latest"]
+      "args": ["@bachstudio/edgeone-pages-mcp"]
     }
   }
 }
@@ -44,7 +46,7 @@ Full-featured MCP service that supports the `deploy_folder` tool for deploying f
     "edgeone-pages-mcp-server": {
       "timeout": 600,
       "command": "npx",
-      "args": ["edgeone-pages-mcp-fullstack@latest", "--region", "china"]
+      "args": ["@bachstudio/edgeone-pages-mcp", "--region", "china"]
     }
   }
 }
@@ -59,7 +61,7 @@ Supports both `deploy_html` and `deploy_folder_or_zip` tools.
   "mcpServers": {
     "edgeone-pages-mcp-server": {
       "command": "npx",
-      "args": ["edgeone-pages-mcp@latest"],
+      "args": ["@bachstudio/edgeone-pages-mcp"],
       "env": {
         // Optional. 
         // If you need to deploy folders or zip files to 
